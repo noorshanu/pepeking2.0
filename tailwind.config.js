@@ -4,7 +4,7 @@ export default {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     fontFamily: {
-      dream: "'dream',sans-serif",
+      coffee: "coffee",
       popins: "'Poppins', sans-serif",
       daughter: "'Architects Daughter', cursive",
     },

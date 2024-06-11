@@ -13,7 +13,7 @@ import Tokenomics from "sections/Tokenomics";
 function App() {
   return (
     <div className="flex flex-col relative z-10">
-        <div className="lg:absolute top-4 2xl:top-3 left-0 w-full z-20">
+        <div className=" w-full z-20">
             <Navbar />
           </div>
 

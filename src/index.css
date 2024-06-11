@@ -7,6 +7,14 @@
   src: url("/fonts/Dream-to-Berich-DEMO.ttf");
 }
 
+@font-face {
+  font-family: "coffee";
+  src: url("/fonts/coffee.ttf");
+}
+
+.text-stroke-3 {
+  text-shadow: -2px 1px 0 black, 2px -1px 0 black, -2px 1px 0 black, 1px 1px 0 black;
+}
 .lh-1 {
   line-height: 1 !important;
 }
@@ -45,7 +53,7 @@
 
   html,
   body {
-    @apply bg-[#121212] text-white overflow-x-hidden;
+    @apply bg-[#edb62f] text-white overflow-x-hidden;
   }
 
   .container-wrapper {
@@ -74,4 +82,22 @@
   background-color: #cff4fd;
 background-image: linear-gradient(319deg, #cff4fd 0%, #c5f4e0 37%, #efc2cf 100%);
 
+}
+
+.floating {
+  animation-name: floating;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
 }

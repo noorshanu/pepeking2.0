@@ -8,8 +8,22 @@ function Navbar() {
   return (
     <>
       <nav className="z-[100]  ">
-        <div className="container-wrapper bg-[#00000044] h-14 lg:h-16 2xl:h-20 rounded-full flex justify-between lg:justify-normal lg:grid lg:grid-cols-[1fr_16rem_1fr] gap-8 items-center backdrop-blur-xl">
-          <div className="items-center justify-evenly text-base font-medium text-white hidden lg:flex">
+        <div className="container-wrapper h-14 lg:h-16 2xl:h-20 backdrop-blur-xl flex justify-between items-center  gap-8">
+         
+        <div className=" flex items-center gap-2 ">
+              <img
+                src="/images/logo.png"
+                className=" mx-auto h-[55px] sm:h-[85px]"
+                alt=""
+              />
+
+              <p className=" text-2xl text-center py-2 stroke-black text-stroke-3 font-bold font-coffee text-[#8ff852]">
+                PEPEKING
+              </p>
+            </div>
+         
+          <div className="items-center justify-evenly  gap-2 text-base font-medium text-white hidden lg:flex w-full">
+       
             <a
               href="#about"
               onClick={() => setSidebarOpen(false)}
@@ -17,37 +31,20 @@ function Navbar() {
             >
               About us
             </a>
-            <a href="#road"
-              
+            <a
+              href="#road"
               onClick={() => setSidebarOpen(false)}
               className="cursor-pointer text-sm xl:text-base"
             >
-             Roadmap
+              Roadmap
             </a>
-          </div>
 
-          <div>
-            <img
-              src="/images/logo.png"
-              className="w-full max-w-[4rem] lg:max-w-[5rem] mx-auto"
-              alt=""
-            />
-          </div>
-
-          <button
-            className="text-2xl text-white flex lg:hidden"
-            onClick={() => setSidebarOpen(true)}
-          >
-            <IoMenu />
-          </button>
-
-          <div className="items-center justify-evenly text-base font-medium text-white hidden lg:flex">
             <Link
               to="/"
               onClick={() => setSidebarOpen(false)}
               className="cursor-pointer text-sm xl:text-base"
             >
-             Socials
+              Socials
             </Link>
             <a
               href="#token"
@@ -57,6 +54,15 @@ function Navbar() {
               Tokenomics
             </a>
           </div>
+
+          <button
+            className="text-2xl text-white flex lg:hidden"
+            onClick={() => setSidebarOpen(true)}
+          >
+            <IoMenu />
+          </button>
+
+    
         </div>
       </nav>
 
@@ -82,7 +88,7 @@ function Navbar() {
             onClick={() => setSidebarOpen(false)}
             className="cursor-pointer text-sm xl:text-base"
           >
-        About us
+            About us
           </a>
           <a
             href="#roadmap"
@@ -96,7 +102,7 @@ function Navbar() {
             onClick={() => setSidebarOpen(false)}
             className="cursor-pointer text-sm xl:text-base"
           >
-           Twitter
+            Twitter
           </Link>
           <Link
             to="tokenomics"
