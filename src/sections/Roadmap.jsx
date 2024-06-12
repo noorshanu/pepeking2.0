@@ -29,51 +29,63 @@ const Grid = ({ direction = "left" }) => {
 
 function Roadmap() {
   return (
-    <section className="relative z-10 overflow-hidden border-2 mx-8 rounded-3xl" id="road">
+    <section
+      className="relative z-10 overflow-hidden    bg-[#181818df]"
+      id="road"
+    >
+      <img
+        src="/images/wave.svg"
+        alt=""
+        className="bottom-[-45px] absolute  w-full left-0 right-0  z-10 h-[55px]"
+      />
       <div className="container-wrapper mb-14">
-        <Title className="text-center mb-4 pt-8">ROADMAP</Title>
+        <Title className=" mb-10 mt-2 text-center text-3xl sm:text-6xl lg:text-6xl font-bold  lh-1_4 stroke-black text-stroke-3  font-coffee text-[#8ff852]">
+          ROADMAP
+        </Title>
         <p className=" text-center">
-        Join Catwithat on our journey to save the Solana meme world, one meme at a time! Meow!
+          Our journey is just beginning, and here's what's in store!
         </p>
 
-        <div className=" flex justify-center gap-4 flex-col sm:flex-row items-center">
-          <div className="w-full">
-            <img src="images/cats.png" alt="" />
-          </div>
-          <div className=" flex flex-col gap-2">
-            <div className=" bg-[#cff4fd] backdrop-blur-2xl  rounded-2xl p-2 text-center w-full border border-black  ">
-              <h2 className="text-[#000] font-semibold text-xl py-2">
-               Phase 1
+        <div className="  items-center">
+          <div className="w-full flex justify-evenly items-center gap-4 flex-col sm:flex-row mt-4">
+            <img src="images/logo.png" alt="" className=" h-[150px]" />
+            <div className="  backdrop-blur-2xl  rounded-2xl p-2 text-center w-full   border-2 border-[#8ff852]  ">
+              <h2 className="text-[#fff]   font-semibold text-xl py-2">
+                Phase 1
               </h2>
-              <p className="text-black font-medium text-sm">
-              Launch <br />
-              More Memes, More Fun  <br />
-              1 Million Mcap <br />
-              Big Marketing <br />
-              CMC and CG Fasttrack listing <br />
-
-               
+              <p className="text-white font-medium text-sm">
+                Launch <br />
+                100 to 1000 holders <br />
+                CMC & CG <br />
+                Big Marketing <br />
               </p>
             </div>
 
-            <div className=" bg-[#cff4fd] backdrop-blur-2xl  rounded-2xl p-2 text-center w-full border border-black  ">
-              <h2 className="text-[#000] font-semibold text-xl py-2">
+            <img
+              src="images/stock.jpeg"
+              alt=""
+              className=" rounded-full h-[150px]"
+            />
+          </div>
+          <div className=" flex justify-center gap-4 flex-col sm:flex-row  mt-8  ">
+            <div className=" border-2 border-[#8ff852] backdrop-blur-2xl  rounded-2xl p-2 text-center w-full  ">
+              <h2 className="text-[#fff] font-semibold text-xl py-2">
                 Phase 2
               </h2>
-              <p className="text-black font-medium text-sm">
-              Expansion into Solana world <br />
-              Launch staking and NFTs <br />
-              Community Building
+              <p className="text-white font-medium text-sm">
+                Events, competitions, and giveaways. <br />
+                Tier 1 exchange <br />
+                Community Building
               </p>
             </div>
 
-            <div className=" bg-[#cff4fd] backdrop-blur-2xl  rounded-2xl p-2 text-center w-full border border-black  ">
-              <h2 className="text-[#000] font-semibold text-xl py-2">
-              Phase 3
+            <div className="  backdrop-blur-2xl  rounded-2xl p-2 text-center w-full border-2 border-[#8ff852] ">
+              <h2 className="text-[#fff] font-semibold text-xl py-2">
+                Phase 3
               </h2>
-              <p className="text-black font-medium text-sm">
-              Tier 1 Exchange listing
-              Events, giveaways, partnership and more!
+              <p className="text-white font-medium text-sm">
+                Influencer Partnerships <br />
+                Further work on utility{" "}
               </p>
             </div>
           </div>

@@ -2,7 +2,11 @@ import Title from "components/Title";
 
 function About() {
   return (
-    <section className="bg-purp mx-8 rounded-b-2xl py-12" id="about">
+
+    <>
+
+    <img src="images/wave.svg" alt="" className=" w-full h-[45px]" />
+      <section className="mx-8 rounded-b-2xl py-12" id="about">
       <div className="container-wrapper grid lg:grid-cols-2 gap-10 ">
         <div>
           <img
@@ -13,18 +17,16 @@ function About() {
         </div>
 
         <div>
-          <Title className="lh-1_5 mb-3 text-[#000]">About Us</Title>
+          <Title className="lh-1_5 mb-3  py-2 stroke-black text-stroke-3 font-bold font-coffee text-[#8ff852]">About Us</Title>
 
-          <p className="font-daughter text-2xl font-medium text-black ">
-            Meow! Welcome to CatWitHat, where cuteness meets high gains! 😺
-            Catwithat embodies the spirit of all things cute, silly, and meme
-            fun. Our founder, Catwithat herself, is here to revolutionize the
-            meme world with her hilarious creations and laid-back approach to
-            making money.
+          <p className=" text-2xl font-medium text-black ">
+          Welcome to the kingdom of Royal Pepe, where memes meet crypto in a fusion of fun and fortune! Royal Pepe is not just another meme coin; we're on a mission to become the one true ruler of Solana's meme realm. Royal Pepe brings you endless excitement, hype on every pump, and best of all, a 0% fee on all purchases for our beloved holders!
           </p>
         </div>
       </div>
     </section>
+    </>
+  
   );
 }
 

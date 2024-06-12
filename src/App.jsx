@@ -21,7 +21,7 @@ function App() {
         <div className="relative z-10">
         
 
-          <div className="mb-10 lg:mb-20">
+          <div className="">
             <Hero />
           </div>
         </div>
@@ -37,15 +37,15 @@ function App() {
          <Product/>
         </div>
         <div>
-          <Mission/>
+          {/* <Mission/> */}
         </div>
         <img
           src="/images/white-strip.svg"
-          className="w-full scale-x-[1.2] mb-6"
+          className="w-full scale-x-[1.2] -mb-12"
           alt=""
         />
 
-        <div id="roadmap">
+        <div id="roadmap ">
           <Roadmap />
         </div>
 
@@ -63,15 +63,7 @@ function App() {
           alt=""
         /> */}
 
-        <div className="my-20">
-          {/* <FeaturedOn /> */}
-          <div className="my-10 mx-auto flex justify-center">
-            <a href="" className="py-3 px-10 rounded-full bg-[#ffffff] text-xl transition-all duration-200  hover:bg-transparent text-black border-black hover:border-white  hover:text-white border ">
-              Buy Now
-            </a>
-
-          </div>
-        </div>
+     
       </main>
 
       <div id="contact">

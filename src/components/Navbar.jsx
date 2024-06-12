@@ -18,7 +18,7 @@ function Navbar() {
               />
 
               <p className=" text-2xl text-center py-2 stroke-black text-stroke-3 font-bold font-coffee text-[#8ff852]">
-                PEPEKING
+                Royal pepe
               </p>
             </div>
          
