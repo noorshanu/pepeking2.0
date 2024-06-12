@@ -43,11 +43,11 @@ function JoinCommunity() {
          
           </h1>
           <div className="flex items-center -m-1 flex-wrap justify-center lg:justify-normal">
-            <Button  link="" className="bg-[#000] border-2 p-2 border-[#8ff852] m-2">DexTools</Button>
+            <Button  link="https://www.dextools.io/app/en/solana/pair-explorer/262B2uYqBtQPmiwccpRCejzUv6QjJXTNDWFDRwKgGTzs?t=1718203768938" className="bg-[#000] border-2 p-2 border-[#8ff852] m-2">DexTools</Button>
             <Button link="https://x.com/Royalpepeonsol" className="bg-[#000] border-2 p-2 border-[#8ff852] m-2">
               Twitter
             </Button>
-            <Button link="https://t.me/Royalpepecoin" className="bg-[#000] border-2 p-2 border-[#8ff852] m-1 ">
+            <Button link="https://t.me/Royalpepetoken" className="bg-[#000] border-2 p-2 border-[#8ff852] m-1 ">
               Telegram
             </Button>
             

@@ -40,7 +40,7 @@ function Hero() {
               </a>
 
               <a
-                href="https://t.me/Royalpepecoin"
+                href="https://t.me/Royalpepetoken"
                 target="_blank"
                 rel="noreferrer"
                 className="py-2 px-2 rounded-full bg-[#000] border-2 border-[#8ff852] text-white font-bold transition-all duration-200 hover:bg-transparent hover:text-[#8ff852] relative text-xl"
@@ -49,7 +49,7 @@ function Hero() {
               </a>
 
               <a
-                href="https://www.dextools.io/app/en/solana/pair-explorer/"
+                href="https://www.dextools.io/app/en/solana/pair-explorer/262B2uYqBtQPmiwccpRCejzUv6QjJXTNDWFDRwKgGTzs?t=1718203768938"
                 target="_blank"
                 rel="noreferrer"
                 className="py-2 px-2 rounded-full bg-[#000] border-2 border-[#8ff852] text-white font-bold transition-all duration-200 hover:bg-transparent hover:text-[#8ff852] relative text-xl"
