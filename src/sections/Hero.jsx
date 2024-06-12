@@ -31,7 +31,7 @@ function Hero() {
             </p>
             <div className=" justify-center flex  items-center gap-3">
               <a
-                href="https://x.com/"
+                href="https://x.com/Royalpepeonsol"
                 target="_blank"
                 rel="noreferrer"
                 className="py-2 px-2 rounded-full bg-[#000] border-2 border-[#8ff852] text-white font-bold transition-all duration-200 hover:bg-transparent hover:text-[#8ff852] relative text-xl"
@@ -40,7 +40,7 @@ function Hero() {
               </a>
 
               <a
-                href="https://t.me/"
+                href="https://t.me/Royalpepecoin"
                 target="_blank"
                 rel="noreferrer"
                 className="py-2 px-2 rounded-full bg-[#000] border-2 border-[#8ff852] text-white font-bold transition-all duration-200 hover:bg-transparent hover:text-[#8ff852] relative text-xl"
